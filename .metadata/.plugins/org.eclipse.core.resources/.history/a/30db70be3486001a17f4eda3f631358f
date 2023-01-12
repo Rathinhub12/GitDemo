@@ -1,0 +1,17 @@
+package forStatement;
+
+public class forPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 double amount = 10000.0;
+		for(int i=2;i<9;i++) {
+	    	  double result =(calculateInterest(amount,i));
+	    	   System.out.println(String.format("%.2f",result));
+	}
+
+}
+   public static double calculateInterest(double amount,double interestRate) {
+	 return(amount*(interestRate/100));
+ }
+}

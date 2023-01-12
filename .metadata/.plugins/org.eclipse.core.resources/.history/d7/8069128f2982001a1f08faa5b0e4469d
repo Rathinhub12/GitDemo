@@ -1,0 +1,16 @@
+package academy.learnProgramming;
+
+public class byteShortIntLong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int myValue=10000;
+		int myMinIntValue=Integer.MIN_VALUE;
+		int myMaxIntValue=Integer.MAX_VALUE;
+		System.out.println("Minimum integer value= "+ myMinIntValue);
+		System.out.println("Maximum integer value= "+ myMaxIntValue);
+
+	}
+
+}

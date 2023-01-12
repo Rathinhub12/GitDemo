@@ -1,0 +1,10 @@
+package Java.Practice;
+
+public class PassByExperiment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

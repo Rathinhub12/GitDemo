@@ -1,0 +1,26 @@
+package Java.Practice;
+
+public class Employee {
+    private int empID;
+    private int empSalary;
+    private String empName;
+    
+ //Constructor
+    
+	public Employee(int empID, int empSalary, String empName) {
+		super();
+		this.empID = empID;
+		this.empSalary = empSalary;
+		this.empName = empName;
+	}
+//Override toString() method;
+
+	@Override
+	public String toString() {
+		return "Employee [empID=" + empID + ", empSalary=" + empSalary + ", empName=" + empName + "]";
+	}
+	
+	}
+	
+	
+

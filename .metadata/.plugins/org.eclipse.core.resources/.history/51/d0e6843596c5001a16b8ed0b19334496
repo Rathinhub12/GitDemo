@@ -1,0 +1,23 @@
+package Java.Practice;
+
+public class MyDate {
+	public int day;
+	public int month;
+	public int year;
+	
+	public MyDate(int day, int month, int year) {
+		super();
+		this.day = day;
+		this.month = month;
+		this.year = year;
+	}
+
+	@Override
+	public String toString() {
+		return "MyDate day=" + day + "/ month=" + month + "/ year=" + year;
+	}
+
+	
+	
+
+}

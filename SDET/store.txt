@@ -1,0 +1,3 @@
+Id is: 1
+name is :sd
+Salary is:2

@@ -1,0 +1,22 @@
+package InnerClass;
+
+public class Main {
+
+	public static void main(String[] args) {
+		GearBox McLaren = new GearBox(6);
+//		GearBox.Gear first = McLaren.new Gear(1,12.3);
+//		System.out.println(first.driveSpeed(1000));
+		McLaren.addGears(1, 5.3);
+		McLaren.addGears(2, 10.6);
+		McLaren.addGears(3, 15.9);
+		McLaren.operateClutch(true);
+		McLaren.changeGear(1);
+		McLaren.operateClutch(false);
+		System.out.println(McLaren.wheelSpeed(1000));
+		McLaren.changeGear(2);
+		System.out.println(McLaren.wheelSpeed(3000));
+		
+
+	}
+
+}

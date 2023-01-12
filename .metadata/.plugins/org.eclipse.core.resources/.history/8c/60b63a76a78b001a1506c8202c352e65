@@ -1,0 +1,57 @@
+package Methods;
+
+public class LargestPrime {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result = getLargestPrime(42);
+		System.out.println(result);
+
+	}
+    public static int getLargestPrime(int num1) {
+    	int var =1;
+    	if(num1<=1) {
+    		return -1;
+    	}else {
+    		
+    		int x =1;
+    		for(int i=2;i<=num1;i++) {//i =2
+    			if((num1%i) == 0) {
+    				
+    				for(int a=2;a<=i/2;i++) {
+    	        		if(i%a == 0) {
+//    	        			return -1;
+    	        		}
+    	        		
+    	        	}
+    	        }
+    			x= i;
+    				
+    				
+    			}
+    			if(x>var) {
+    				var =x;
+    			}
+    		}
+    		return var;
+    		
+    	}
+    
+}
+		
+
+    
+//    public static int primeNumber(int num) {
+//        if(num == 1) {
+//        	return -1;
+//        }else {
+//        	for(int i=2;i<=num/2;i++) {
+//        		if(num%i == 0) {
+//        			return -1;
+//        		}
+//        		
+//        	}
+//        }
+//		return num;
+//    }
+//}

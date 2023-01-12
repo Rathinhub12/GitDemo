@@ -1,0 +1,27 @@
+package Array;
+
+import java.util.Scanner;
+
+public class MainMobilePhone {
+	private static Scanner scanner = new Scanner(System.in);
+	private static ContactList contactsList = new ContactList();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 
+	}
+	
+	public static void printMenu() {
+  	  System.out.println("\nPress");
+  	  System.out.println("\t 0 - To print Menu options.");
+  	  System.out.println("\t 1 - To print the list of Contacts.");
+  	  System.out.println("\t 2 - To add a new contact.");
+  	  System.out.println("\t 3 - To modify an existing contact.");
+  	  System.out.println("\t 4 - To remove an existing contact");
+  	  System.out.println("\t 5 - To search an existing contact");
+  	  System.out.println("\t 6 - To close the application.");
+  	  }
+
+
+}

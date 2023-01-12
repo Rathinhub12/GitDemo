@@ -1,0 +1,10 @@
+package Java.Lab12;
+
+import Java.Practice.MyDate;
+
+public interface Rushable {
+	
+	public abstract boolean isRushable(MyDate orderDate, double amount);
+
+
+}

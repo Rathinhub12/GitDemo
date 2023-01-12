@@ -1,0 +1,31 @@
+package academy.learnProgramming;
+
+public class byteShortIntLong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int myValue=10000;
+		int myMinIntValue=Integer.MIN_VALUE;
+		int myMaxIntValue=Integer.MAX_VALUE;
+		System.out.println("Minimum integer value= "+ myMinIntValue);
+		System.out.println("Maximum integer value= "+ myMaxIntValue);
+		
+		
+		//short myValue=10000;
+		//short myMinshortValue=shorteger.MIN_VALUE;
+		//short myMaxshortValue=shorteger.MAX_VALUE;
+		//System.out.prshortln("Minimum shorteger value= "+ myMinshortValue);
+		//System.out.prshortln("Maximum shorteger value= "+ myMaxshortValue);
+
+		
+		byte myByteNumber = 10;
+		short myShortNumber = 20;
+		int myIntNumber = 50;
+		long myLongNumber = 50000L+10L*(myByteNumber+myShortNumber+myIntNumber);
+		short shortTotal=(short) (1000+10*(myByteNumber+myShortNumber+myIntNumber));
+		
+	System.out.println(myLongNumber);
+	}
+
+}
