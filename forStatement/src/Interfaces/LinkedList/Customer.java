@@ -1,4 +1,4 @@
-package LinkedList;
+package Interfaces.LinkedList;
 
 public class Customer {
 	private String name;

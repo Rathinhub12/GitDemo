@@ -24,7 +24,7 @@ public class Point {
 		this.y = y;
 	}
 	
-	public distance() {
+	public void distance() {
 	  
 	}
 

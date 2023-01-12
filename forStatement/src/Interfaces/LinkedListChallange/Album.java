@@ -1,4 +1,4 @@
-package LinkedListChallange;
+package Interfaces.LinkedListChallange;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

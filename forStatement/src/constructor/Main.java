@@ -1,5 +1,7 @@
 package constructor;
 
+import Encapsulation.Player;
+
 //import Composition.Case;
 //import Composition.Dimensions;
 //import Composition.Monitor;
@@ -23,7 +25,7 @@ public class Main {
 //	    thePC.getMotherboard().loadProgram("windows");
 //	    thePC.getTheCase().presentPowerButton();
 //			
-	Player player = new Player;	
+	Player player = new Player();	
 		
 		
 				

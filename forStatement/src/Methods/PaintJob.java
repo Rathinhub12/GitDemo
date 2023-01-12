@@ -14,7 +14,7 @@ public class PaintJob {
     		return -1;
     	}else {
     		double area = height*width;
-    		long requiredBuckets = (area/areaPerBucket);
+    		long requiredBuckets = (long) (area/areaPerBucket);
     		int finalCountOfBucket = (int)(requiredBuckets - extrabuckets);
     		return finalCountOfBucket;
     	}

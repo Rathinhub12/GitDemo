@@ -1,4 +1,4 @@
-package LinkedListChallange;
+package Interfaces.LinkedListChallange;
 
 public class Song {
 	private String title;
