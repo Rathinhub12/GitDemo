@@ -13,7 +13,6 @@ public class GroceryList {
 		return groceryList;
 	}
 	public void addGroceryList(String item) {
-		System.out.println("Adding items to grocery list!!!!");
 		groceryList.add(item);	
 		}
 	public void printGroceryList() {

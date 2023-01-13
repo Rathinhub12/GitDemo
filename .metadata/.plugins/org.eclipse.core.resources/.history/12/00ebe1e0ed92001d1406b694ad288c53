@@ -14,8 +14,6 @@ public class ArrayChallange {
 	int[] myInteger = getIntegers(5);
 	printIntegers(myInteger);
 	sortIntegers(myInteger);
-	
-	System.out.println("Start Execution!!!!");
 	  }
 	public static int[] getIntegers(int number) {
 	System.out.println("Enter " +number + " integer value.\r");

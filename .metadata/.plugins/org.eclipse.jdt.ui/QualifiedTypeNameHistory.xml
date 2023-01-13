@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="Interfaces.ITelephone"/>
     <fullyQualifiedTypeName name="Interfaces.deskPhone"/>
     <fullyQualifiedTypeName name="Interfaces.DeskPhone"/>
+    <fullyQualifiedTypeName name="Encapsulation.Player"/>
 </qualifiedTypeNameHistroy>
