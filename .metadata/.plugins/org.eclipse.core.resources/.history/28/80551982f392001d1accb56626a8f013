@@ -14,8 +14,6 @@ public class GroceryList {
 	}
 	public void addGroceryList(String item) {
 		System.out.println("Adding items to grocery list!!!!");
-		
-		System.out.println("Adding few more items to grocery list!!!!");
 		groceryList.add(item);	
 		}
 	public void printGroceryList() {
